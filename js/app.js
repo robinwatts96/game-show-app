@@ -1,3 +1,4 @@
+// Variables
 const qwerty = document.getElementById('qwerty');
 const phrase = document.getElementById('phrase');
 const startGame = document.querySelector('.btn__reset');
@@ -6,7 +7,7 @@ const ol = document.querySelector('#scoreboard ol');
 const h1 = document.createElement('h1');
 let missed = 0;
 
-// Phrases array
+// Possible phrases to guess
 const phrases = [
     'JAVASCRIPT GIVES ME A HEADACHE',
     'BUT A WORTHWHILE HEADACHE',

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300');
 
 /* Variables */
-
 :root {
   --color-win: #78CF82;
   --color-lose: #D94545;
@@ -18,7 +17,6 @@
 
 
 /* main */
-
 * {
   box-sizing: border-box;
 }
@@ -70,14 +68,14 @@ button {
   padding: 10px;
 }
 
-/* Title */
 
+/* Title */
 .header {
   color: var(--color-start);
 }
 
-/* Phrase */
 
+/* Phrase */
 .letter {
   font-size: var(--font-size-medium);
   height: 65px;
@@ -98,8 +96,8 @@ button {
   background-color: #76CE82;
 }
 
-/* Keyboard */
 
+/* Keyboard */
 .keyrow {
   display: flex;
   justify-content: center;
@@ -117,11 +115,12 @@ button {
   margin: 50px auto;
   background: #FFFFFF;
   border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--font-size-medium);
 }
 
-/* Overlay */
 
+/* Overlay */
 #overlay {
   display: flex;
   flex-direction: column;
@@ -165,7 +164,6 @@ button {
 
 
 /* Transition */
-
 .transition {
   animation: shake 500ms;
 }
